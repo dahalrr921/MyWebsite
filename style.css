@@ -5,19 +5,41 @@ body {
     background-color: #f4f4f4;
 }
 
-h1 {
-    color: #007bff;
-    text-align: center;
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
 }
 
-p {
-    color: #333;
-    text-align: center;
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+/* Placeholder for icons (to be added later) */
+.nav-icons a {
+    color: white;
+    text-decoration: none;
     font-size: 1.2rem;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
 }
