@@ -1,5 +1,5 @@
 
-  body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -22,14 +22,19 @@
     margin: 0;
 }
 
+/* Navigation Icons */
 .nav-icons {
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
-/* Placeholder for icons (to be added later) */
-.nav-icons a {
+.icon {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #ffcc00; /* Highlight on hover */
 }
