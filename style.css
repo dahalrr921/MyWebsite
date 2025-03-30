@@ -17,6 +17,16 @@ body {
     margin: 0;
 }
 
+.main-image {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-image img {
+    max-width: 300px; /* Control the image size */
+    border-radius: 10px;
+}
+
 .container {
     margin-top: 50px;
 }
